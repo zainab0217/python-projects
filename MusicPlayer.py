@@ -191,7 +191,7 @@ if __name__ == '__main__':
 	next_ = PhotoImage(file = 'icons/next.gif')
 	prev = PhotoImage(file='icons/previous.gif')
 	play = PhotoImage(file='icons/play.gif')
-	pause = PhotoImage(file='icons/pause.gif')
+    print("hello from desktop")
 
 	app = Player(master=root)
 	app.mainloop()
